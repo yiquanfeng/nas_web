@@ -1,0 +1,48 @@
+body {
+    font-family: Jetbrains Mono, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10;
+}
+
+.login-container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    width: 300px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4f27ac;
+}
